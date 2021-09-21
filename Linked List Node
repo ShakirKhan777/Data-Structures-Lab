@@ -10,11 +10,11 @@ struct node no1, no2, no3, no4, no5;
 
 int main()
 {
-	no1.data = 10;
-	no2.data = 20;
-	no3.data = 30;
-	no4.data = 40;
-	no5.data = 50;
+	no1.data = 5;
+	no2.data = 10;
+	no3.data = 15;
+	no4.data = 20;
+	no5.data = 25;
 	no1.next = &no2;
 	no2.next = &no3;
 	no3.next = &no4;
